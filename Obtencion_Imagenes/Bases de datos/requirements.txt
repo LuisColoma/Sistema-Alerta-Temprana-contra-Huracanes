@@ -1,0 +1,75 @@
+pip install scikit-image
+pip install scikit-learn
+pip install matplotlib
+pip install cartopy
+pip install folium
+pip install mapbox_vector_tile
+pip install lxml
+pip install pandas
+pip install owslib
+pip install geopandas
+pip install rasterio
+pip install fiona
+pip install ipyleaflet
+pip install cairosvg
+pip install PyQt5
+pip install pycocotools
+pip install utils
+pip install argparse
+pip install opencv-python
+
+
+https://worldview.earthdata.nasa.gov/?v=-99.09289592388377,10.991036411274,-78.00633298872184,21.391544275648137&l=Reference_Labels_15m(hidden),Reference_Features_15m,Coastlines_15m,MODIS_Terra_CorrectedReflectance_TrueColor&lg=false&t=2024-07-04-T00%3A00%3A00Z
+
+---
+
+ Centroamérica (Aprox. en grados de latitud y longitud):
+
+Latitud: ~ 5°N a 23°N
+Longitud: ~ -93°W a -77°W
+📍 Conversión a Web Mercator (EPSG:3857):
+
+Latitud 5°N ≈ 556,597 m
+Latitud 23°N ≈ 2,564,719 m
+Longitud -93°W ≈ -10,366,000 m
+Longitud -77°W ≈ -8,568,000 m
+
+extent=(izquierda, derecha, abajo, arriba)
+
+-------------
+Install Python, PyQt5 and install lxml.
+
+pyrcc4 -o libs/resources.py resources.qrc
+For pyqt5, pyrcc5 -o libs/resources.py resources.qrc
+
+python labelImg.py
+python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
+--------------------  CONFIGURAR VM PARA USAR PYTHON3.11 -------------------------
+
+1. Instalar Python3.11
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.11
+
+2. Instalar Pip para Python3.11
+
+curl https://bootstrap.pypa.io/get-pip.py
+Python3.11 get-pip.py
+
+3. Agregar pip al PATH
+
+nano ~/.bashrc
+export PATH="$HOME/.local/bin:$PATH"
+source ~/.bashrc
+
+4. Entorno virtual
+
+sudo apt install python3.11-venv
+
+5. Instalar liberias de tensorflow lite NOTA: No es compatabile con una versión mayor de python3.9 
+
+
+6. 
+

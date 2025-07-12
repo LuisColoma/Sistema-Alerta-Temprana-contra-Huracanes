@@ -1,0 +1,26 @@
+<annotation>
+	<folder>entrenamiento</folder>
+	<filename>img_2023-10-23.jpg</filename>
+	<path>C:\Users\Luis\Desktop\Maestria\Teledeteccion\Bases de datos\Imagenes satelitales\entrenamiento\img_2023-10-23.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>985</width>
+		<height>1108</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>precipitacion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>634</xmin>
+			<ymin>641</ymin>
+			<xmax>799</xmax>
+			<ymax>778</ymax>
+		</bndbox>
+	</object>
+</annotation>
